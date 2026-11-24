@@ -10,7 +10,7 @@
 <main>
   <p><a href="index.html">← Centenarian</a></p>
   <h1>Privacy notice</h1>
-  <p class="meta">Version 0.1 (DRAFT) · Last updated 22 November 2026 · Applies to the invite-only phase</p>
+  <p class="meta">Version 0.2 (DRAFT, health vault added for review) · Last updated 24 November 2026 · Applies to the invite-only phase</p>
 
   <p>Centenarian is a habit coach you use inside WhatsApp. It is run by Shankar Ramchandran (“we”).
   This notice explains what we collect, why, where it is kept, who can see it, and how you can
@@ -34,8 +34,31 @@
     <li><strong>Safety screening answers</strong> (yes/no only) for habits that could harm some people. These are never shared with anyone.</li>
     <li><strong>Your consent</strong>: when you agreed and to which version of this notice.</li>
   </ul>
-  <p>We do not ask for your name, exact age, location or contacts. If later features let you upload
-  health records or reports, we will update this notice and ask for your consent first.</p>
+  <p>We do not ask for your name, exact age, location or contacts. Health records are kept only if you
+  choose to use the health vault, with its own consent (below).</p>
+
+  <h2>Health records (the health vault)</h2>
+  <p>If you agree to it separately, you can send the app photos or PDFs of health records (for example
+  vaccination cards, prescriptions, lab reports or discharge summaries), for yourself or for family
+  members you look after.</p>
+  <ul>
+    <li><strong>What we keep:</strong> the full file, and what is read from it: the type of record, its date,
+      the name on it, and the vaccines, medicines or test results it lists, as written.</li>
+    <li><strong>Where:</strong> encrypted by the app and stored in Google Cloud in Mumbai, India; the details
+      read from it are stored encrypted in our database in Mumbai.</li>
+    <li><strong>Who reads it:</strong> our AI provider (Anthropic) reads each file once, so the app can
+      organise it; it is not used to train AI. After that, only you can see your records, on a private
+      page reached by a link and a one-time code sent to your WhatsApp. The app owner cannot see them.</li>
+    <li><strong>No medical advice:</strong> the app only restates what a record says. It does not interpret
+      results, judge doses or suggest changes.</li>
+    <li><strong>Family members:</strong> an adult's records are kept only after that adult agrees on their own
+      WhatsApp, or after you confirm you are their lawful guardian. They can withdraw at any time by
+      sending STOP RECORDS, and their records are deleted. A child's records (under 18) are kept only
+      after a parent or lawful guardian makes a declaration on the private page; they are used only to
+      keep those records.</li>
+    <li><strong>Your control:</strong> view, download, correct or delete any record, or a family member's
+      profile, on your private page; download everything as a zip; "delete my data" deletes all of it.</li>
+  </ul>
 
   <h2>Why we use it</h2>
   <ul>
@@ -65,13 +88,15 @@
     <li><strong>Anthropic (Claude API)</strong>: the AI that reads some messages to understand and reply.
       Under Anthropic’s commercial terms, API data is not used to train its models. We send only what is
       needed for a reply, never your phone number.</li>
-    <li><strong>Google Cloud (Mumbai region)</strong>: runs the app.</li>
+    <li><strong>Google Cloud (Mumbai region)</strong>: runs the app and stores health-vault files, encrypted.</li>
     <li><strong>Supabase (Mumbai region)</strong>: stores the app’s database.</li>
   </ul>
 
   <h2>How long we keep it</h2>
   <ul>
     <li>Your account data: while you use the app, until you delete it.</li>
+    <li>Health records: until you delete them (or the family member withdraws); a deleted file is gone at
+      once, with no copies kept.</li>
     <li>Usage events (for statistics): up to 13 months, then only combined totals remain.</li>
     <li>Cost records: kept for accounting, with the link to you removed when you delete your data.</li>
   </ul>
@@ -89,7 +114,8 @@
   Protection Act 2012.</p>
 
   <h2>Who can use Centenarian</h2>
-  <p>You must be 18 or older. During the invite-only phase, only people invited by the owner can use it.</p>
+  <p>You must be 18 or older. During the invite-only phase, only people invited by the owner can use it.
+  A parent or lawful guardian may keep a child's health records in the health vault, as described above.</p>
 
   <h2>Not medical advice</h2>
   <p>Centenarian suggests everyday habits and shows the research behind them. It does not diagnose,

@@ -25,6 +25,8 @@ main {
 }
 h1 { font-size: 2rem; margin-bottom: 0.25rem; }
 h2 { font-size: 1.2rem; margin-top: 2rem; }
+h3 { font-size: 1.05rem; margin: 1.4rem 0 0.2rem; }
+h3 + p { margin-top: 0; }
 .lead { font-size: 1.2rem; }
 .meta { color: var(--muted); font-size: 0.9rem; }
 a { color: var(--link); }
